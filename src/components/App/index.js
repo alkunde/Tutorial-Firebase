@@ -12,6 +12,8 @@ import AdminPage from "../Admin";
 
 import * as ROUTES from "../../constants/routes";
 
+import { FirebaseContext } from "../Firebase";
+
 const App = () => (
   <Router>
     <div>
@@ -26,6 +28,11 @@ const App = () => (
       <Route path={ROUTES.HOME} component={HomePage} />
       <Route path={ROUTES.ACCOUNT} component={AccountPage} />
       <Route path={ROUTES.ADMIN} component={AdminPage} />
+      <FirebaseContext.Consumer>
+        {firebase => {
+          return <div>I've access to Firebase and render something.</div>;
+        }}
+      </FirebaseContext.Consumer>
     </div>
   </Router>
 );
