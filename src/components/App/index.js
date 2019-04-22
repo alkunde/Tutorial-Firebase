@@ -12,7 +12,7 @@ import AdminPage from "../Admin";
 
 import * as ROUTES from "../../constants/routes";
 
-import { FirebaseContext } from "../Firebase";
+//import { FirebaseContext } from "../Firebase";
 
 const App = () => (
   <Router>
