@@ -101,7 +101,7 @@ const SignUpLink = () => (
   </p>
 );
 
-const SignUpForm = withRouter(withFirebase(SignUpFormBase);
+const SignUpForm = withRouter(withFirebase(SignUpFormBase));
 
 export default SignUpPage;
 
