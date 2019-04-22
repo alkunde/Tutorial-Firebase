@@ -1,0 +1,12 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "editor.fontFamily": "Fira Code",
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.panel.location": "bottom",
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 0,
+  "files.autoSave": "off",
+  "editor.formatOnSave": true
+}
